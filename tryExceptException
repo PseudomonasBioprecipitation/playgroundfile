@@ -1,8 +1,0 @@
-age = 1000 
-try: 
- adult_years = age - 18 
-except: 
- raise TypeError("Input is not a number") 
-else: 
- if adult_years > 150: 
-  raise ValueError("Age is too large")
