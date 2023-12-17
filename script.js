@@ -1,18 +1,17 @@
-document.getElementById('myButton').addEventListener('click', function() {
-    this.textContent = 'You pressed the button!';
-});
-document.getElementById("contactForm").addEventListener("submit", function(event){
+document.querySelector('form').addEventListener('submit', function(event) {
   event.preventDefault();
-  var name = document.getElementById("name").value;
-  var email = document.getElementById("email").value;
-  console.log("Name: " + name + ", Email: " + email);
+  var selectedSet = document.querySelector('input[name="set"]:checked').value;
+  if (selectedSet === 'set1') {
+    // Load files and content for Set 1
+    var script = document.createElement('script');
+    script.src = 'set1.js';
+    document.head.appendChild(script);
+    console.log('Loading Set 1');
+  } else if (selectedSet === 'set2') {
+    // Load files and content for Set 2
+    var script = document.createElement('script');
+    script.src = 'set2.js';
+    document.head.appendChild(script);
+    console.log('Loading Set 2');
+  }
 });
-function calculateFactorial() {
-  let num = document.getElementById("num").value;
-  let result = factorial(num);
-  document.getElementById("result").innerHTML = "The factorial of " + num + " is " + result;
-}
-
-function factorial(n) {
-  return (n != 1) ? n * factorial(n - 1) : 1;
-}
