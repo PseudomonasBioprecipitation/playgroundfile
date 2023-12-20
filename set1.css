@@ -1,68 +1,62 @@
+/* set1.css */
+
+/* Use a custom font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue&display=swap');
+
+/* Set the background color to a gradient of pink and purple */
 body {
-    background-color: #f2f2f2;
-    font-family: Arial, sans-serif;
-  }
-  
-  h1 {
-    color: #333;
-    font-size: 36px;
-    margin-top: 50px;
-    text-align: center;
-  }
-  
-  h2 {
-    color: #666;
-    font-size: 24px;
-    margin: 20px;
-  }
-  
-  p {
-    color: #666;
-    font-size: 18px;
-    line-height: 1.5;
-    margin: 20px;
-    text-align: justify;
-  }
-  
-  button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px;
-    cursor: pointer;
-  }
-  
-  input[type=text], input[type=number] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    font-size: 16px;
-  }
-  
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  #result {
-    font-size: 24px;
-    margin: 20px;
-  }
+  background: linear-gradient(to right, pink, purple);
+  font-family: 'Comic Neue', cursive;
+}
+
+/* Make the headings white and add some text shadow */
+h1, h2, h3 {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+/* Add some margin and padding to the paragraphs */
+p {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Make the input box and button larger and more colorful */
+input, button {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/* Change the input box color to yellow and the button color to green */
+input {
+  background-color: yellow;
+}
+
+button {
+  background-color: green;
+  color: white;
+}
+
+/* Add some hover effects to the input box and button */
+input:hover {
+  transform: scale(1.1);
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px green;
+}
+
+/* Add some transition effects to the input box and button */
+input, button {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Center the result paragraph and make it bold and red */
+#result {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
