@@ -1,4 +1,9 @@
- document.querySelector('form').addEventListener('submit', function(event) {
+window.addEventListener('pageshow', function(event) {
+  if (event.persisted) {
+      window.location.reload();
+  }
+});
+document.querySelector('form').addEventListener('submit', function(event) {
   event.preventDefault();
   var selectedSet = document.querySelector('input[name="set"]:checked').value;
   var link = document.createElement('link');
