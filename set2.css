@@ -1,17 +1,17 @@
 /* set2.css */
 
-body {
+.set2-page {
   background-color: lightblue;
   font-family: Arial, sans-serif;
 }
 
-h1 {
+.set2-page h1 {
   color: white;
   text-align: center;
   text-shadow: 2px 2px 4px black;
 }
 
-form {
+.set2-page form {
   margin: 0 auto;
   width: 300px;
   padding: 20px;
@@ -19,17 +19,17 @@ form {
   border-radius: 10px;
 }
 
-label {
+.set2-page label {
   display: inline-block;
   width: 100px;
   font-weight: bold;
 }
 
-input {
+.set2-page input {
   width: 150px;
 }
 
-button {
+.set2-page button {
   width: 200px;
   height: 40px;
   background-color: green;
@@ -39,10 +39,10 @@ button {
   border-radius: 5px;
 }
 
-button:hover {
+.set2-page button:hover {
   background-color: lime;
 }
 
-button:active {
+.set2-page button:active {
   background-color: darkgreen;
 }
