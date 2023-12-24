@@ -1,32 +1,32 @@
-body {
+.index-page body {
   font-family: 'Courier New', monospace;
   margin: 20px;
   padding: 30px;
   background-color: #e6e6fa; /* Lavender */
 }
 
-h1 {
+.index-page h1 {
   color: #4b0082; /* Indigo */
   padding: 30px;
   background-color: #f5f5dc; /* Beige */
   border-bottom: 2px dashed #8b4513; /* SaddleBrown */
 }
 
-h2 {
+.index-page h2 {
   color: #800000; /* Maroon */
   padding: 25px;
   background-color: #f0e68c; /* Khaki */
   border-bottom: 2px dotted #808000; /* Olive */
 }
 
-h3 {
+.index-page h3 {
   color: #006400; /* DarkGreen */
   padding: 20px;
   background-color: #fafad2; /* LightGoldenRodYellow */
   border-bottom: 2px solid #8b0000; /* DarkRed */
 }
 
-p {
+.index-page p {
   color: #483d8b; /* DarkSlateBlue */
   padding: 15px;
   background-color: #e0ffff; /* LightCyan */
@@ -36,19 +36,19 @@ p {
   text-align: justify;
 }
 
-form {
+.index-page form {
   padding: 20px;
   background-color: #fff;
   border: 1px solid #ccc;
 }
 
-form input[type="text"] {
+.index-page form input[type="text"] {
   padding: 5px;
   border: 1px solid #ccc;
   margin-bottom: 10px;
 }
 
-form input[type="submit"] {
+.index-page form input[type="submit"] {
   padding: 5px 10px;
   border: none;
   background-color: #333;
