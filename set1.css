@@ -4,25 +4,25 @@
 @import url('https://fonts.googleapis.com/css?family=Comic+Neue&display=swap');
 
 /* Set the background color to a gradient of pink and purple */
-body {
+.set1-page {
   background: linear-gradient(to right, pink, purple);
   font-family: 'Comic Neue', cursive;
 }
 
 /* Make the headings white and add some text shadow */
-h1, h2, h3 {
+.set1-page h1, .set1-page h2, .set1-page h3 {
   color: white;
   text-shadow: 2px 2px 4px black;
 }
 
 /* Add some margin and padding to the paragraphs */
-p {
+.set1-page p {
   margin: 10px;
   padding: 10px;
 }
 
 /* Make the input box and button larger and more colorful */
-input, button {
+.set1-page input, .set1-page button {
   width: 300px;
   height: 70px;
   font-size: 20px;
@@ -30,32 +30,32 @@ input, button {
 }
 
 /* Change the input box color to yellow and the button color to green */
-input {
+.set1-page input {
   background-color: yellow;
 }
 
-button {
+.set1-page button {
   background-color: green;
   color: white;
 }
 
 /* Add some hover effects to the input box and button */
-input:hover {
+.set1-page input:hover {
   transform: scale(1.1);
 }
 
-button:hover {
+.set1-page button:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px green;
 }
 
 /* Add some transition effects to the input box and button */
-input, button {
+.set1-page input, .set1-page button {
   transition: all 0.3s ease-in-out;
 }
 
 /* Center the result paragraph and make it bold and red */
-#result {
+.set1-page #result {
   text-align: center;
   font-weight: bold;
   color: red;
