@@ -295,3 +295,15 @@ Use Unique Class Names: Ensure that the CSS classes or IDs you’re using in set
 Clear Browser Cache: Sometimes, the browser cache can cause styles to persist across pages. You can try clearing your browser cache to see if it resolves the issue.
 
 Remember, CSS is a powerful tool for styling your web pages, but it can also lead to unexpected results if not managed properly. It’s always a good idea to keep your CSS organized and to understand how different styles can interact with each other. 😊
+
+In JavaScript, window is a global object that represents the browser’s window. All global JavaScript objects, functions, and variables automatically become members of the window object1. Here’s what you need to know about the window object:
+
+It represents the browser’s window1.
+All global JavaScript objects, functions, and variables automatically become members of the window object1.
+Even the document object (of the HTML DOM) is a property of the window object1.
+It provides methods and properties for interacting with the browser window1.
+It includes methods like window.open() to open a new window, window.close() to close the current window, window.moveTo() to move the current window, and window.resizeTo() to resize the current window1.
+It includes properties like window.innerHeight and window.innerWidth to get the inner height and width of the browser window1.
+For example, window.document.getElementById("header") is the same as document.getElementById("header")1. This is because document is a property of the window object, so it’s accessible globally without needing to reference window explicitly2.
+
+I hope this helps! Let me know if you have any other questions. 😊
