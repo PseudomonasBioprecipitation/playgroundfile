@@ -24,4 +24,4 @@ document.querySelector('form').addEventListener('submit', function(event) {
     link.href = 'set3.css';
     document.head.appendChild(link);
     window.location.href = 'set3.html';
-});
+}});
