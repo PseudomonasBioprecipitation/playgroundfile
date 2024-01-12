@@ -19,5 +19,9 @@ document.querySelector('form').addEventListener('submit', function(event) {
     link.href = 'set2.css';
     document.head.appendChild(link);
     window.location.href = 'set2.html';
-  }
+  } else if (selectedSet === 'set3') {
+    // Load files and content for Set 2
+    link.href = 'set3.css';
+    document.head.appendChild(link);
+    window.location.href = 'set3.html';
 });
